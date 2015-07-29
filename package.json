@@ -1,0 +1,26 @@
+{
+  "name": "symont",
+  "version": "0.1.1",
+  "description": "Remote-control environment for a ROV, Raspberry PI 2 powered.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/symont/seaklod.git"
+  },
+  "keywords": [
+    "ROV",
+    "Raspberry PI",
+  ],
+  "dependencies": {
+    "express": ">= 4.6.1",
+    "socket.io": ">= 1.0.6",
+    "i2c": "= 0.1.8",
+  },
+  "author": {
+	"name": "symont <symont@hotmail.ca>"
+	},
+"scripts": {
+        "start": "node server.js"
+    },
+  "license": "MIT"
+}
